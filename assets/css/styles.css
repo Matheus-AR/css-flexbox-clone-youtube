@@ -1,0 +1,106 @@
+@import url('./global.css');
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 56px;
+    background-color: #FFFFFF;
+}
+
+.container-left {
+    display: flex;
+    gap: 32px;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+}
+
+.container-center > input {
+    height: 40px;
+    width: 348px;
+}
+
+.container-center > button {
+    height: 40px;
+    width: 57px;
+}
+
+.container-right {
+    display: flex;
+    gap: 24px;
+}
+
+.container-main {
+    height: 746px;
+    width: 952px;
+}
+
+.container-video {
+    height: 537px;
+    width: 952px;
+}
+
+.container-titulo {
+    padding: 16px 0;
+}
+
+.titulo-video {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    border: 1px solid black;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.infos > p {
+    display: block;
+}
+
+.botao-inscrever {
+    height: 40px;
+    width: 159px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #CC0000;
+    border: 1px solid #CC0000;
+    border-radius: 2px;
+}
+
+.container-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container-metricas-video {
+    margin: 16px 0;
+}
+.texto-metricas {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container-descricao {
+    width: 517px;
+}
+
+.texto-descricao {
+    font-size: 14px;
+}
