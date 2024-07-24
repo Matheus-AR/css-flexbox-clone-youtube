@@ -58,7 +58,6 @@
     justify-content: space-between;
     align-items: center;
     height: 42px;
-    border: 1px solid black;
 }
 
 .infos {
@@ -103,4 +102,45 @@
 
 .texto-descricao {
     font-size: 14px;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 28px 16px;
+}
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    height: 100vh;
+}
+
+.aside-item {
+    display: flex;
+    gap: 12px;
+    width: 360px;
+}
+
+.infos-aside-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-aside {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.texto-aside-nome,
+.texto-aside-metrica {
+    font-size: 12px;
+}
+
+.texto-aside-metrica {
+    width: 70%;
 }
